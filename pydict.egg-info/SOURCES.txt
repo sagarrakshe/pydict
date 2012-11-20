@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+bin/pydict
+pydict/__init__.py
+pydict/color.py
+pydict/parser.py
+pydict/pronounce.py
+pydict/pydict.py
+pydict.egg-info/PKG-INFO
+pydict.egg-info/SOURCES.txt
+pydict.egg-info/dependency_links.txt
+pydict.egg-info/not-zip-safe
+pydict.egg-info/requires.txt
+pydict.egg-info/top_level.txt

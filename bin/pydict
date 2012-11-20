@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+
+import pydict
+import optparse
+
+def main():
+	p = optparse.OptionParser()
+	p.add_option('--query', '-q', default = '')
+	p.add_option('--pronounce', '-p', default = 1)
+	p.add_option('--style', '-s', default = 'normal')
+	p.add_option('--meaning', '-m', default = 1)
+	options, arguments = p.parse_args()
+
+	if int(options.meaning) >0:
+		pydict.search(str(options.query), int(options.pronounce), str(options.style).lower())
+	else:
+		pydict.speak(str(options.query), int(options.pronounce), str(options.style).lower())
+	
+
+if __name__ == '__main__':
+	main()
