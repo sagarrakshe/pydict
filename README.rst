@@ -37,6 +37,10 @@ $ pydict -q 'awesome' -s 'uk' -p 2
 
 options:
 -q --query:		keyword
+
 -s --style: 	'normal', 'us' or 'uk'
+
 -p --pronounce:	repeat pronounciation
+
 -m --meaning:	display search or not. (0 or 1)
+
