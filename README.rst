@@ -2,7 +2,7 @@ Pydict
 -------
 
 Pydict is a simple command line dictionary, it lets you search the meanings of the word on the terminal. 
-It refers to the online dictionary http://www.thefreeonlinedictionary.com
+It refers to the online dictionary http://www.thefreedictionary.com
 It also pronouces the keywords.
 
 Requirements
