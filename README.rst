@@ -33,7 +33,7 @@ It has three styles 'normal', 'us' and 'uk'.
 
 From command line:
 
-$ pydict -q 'awesome' -s uk -p 2 
+    $ pydict -q 'awesome' -s uk -p 2 
 
 options:
 
