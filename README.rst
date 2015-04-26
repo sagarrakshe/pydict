@@ -9,7 +9,7 @@ Requirements
 -------------
 
 It requires a command line mp3 player - mpg123. To install it use the following command:
-$ sudo apt-get install mpg123
+    $ sudo apt-get install mpg123
 
 Usage
 ------
